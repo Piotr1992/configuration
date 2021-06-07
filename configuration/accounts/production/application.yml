@@ -6,4 +6,4 @@ accounts:
     username: root
     password: PLSzW-2020
     ddl-mode: update
-allow-get-accounts: true
+  allow-get-accounts: true
