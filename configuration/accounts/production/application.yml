@@ -1,6 +1,6 @@
 server:
   port: 7777
-customers:
+accounts:
   datasource:
     url: jdbc:postgresql://localhost:3306/customers
     username: root
