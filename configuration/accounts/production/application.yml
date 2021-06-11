@@ -7,10 +7,10 @@ server:
 #    password: PLSzW-2020
 #    ddl-mode: update
 #  allow-get-accounts: true
-customers:
+customer:
   datasource:
-    url: jdbc:postgresql://localhost:3306/customers
+    url: jdbc:postgresql://localhost:3306/customer
     username: root
     password: PLSzW-2020
     ddl-mode: update
-  allow-get-customers: true
+  allow-get-customer: true
