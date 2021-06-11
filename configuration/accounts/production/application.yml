@@ -1,6 +1,5 @@
 server:
-  port1: 7777
-  port2: 7778
+  port: 7777
 accounts:
   datasource:
     url: jdbc:postgresql://localhost:3306/accounts
@@ -8,10 +7,10 @@ accounts:
     password: PLSzW-2020
     ddl-mode: update
   allow-get-accounts: true
-customers:
-  datasource:
-    url: jdbc:postgresql://localhost:3306/customers
-    username: root
-    password: PLSzW-2020
-    ddl-mode: update
-  allow-get-customers: true
+#customers:
+#  datasource:
+#    url: jdbc:postgresql://localhost:3306/customers
+#    username: root
+#    password: PLSzW-2020
+#    ddl-mode: update
+#  allow-get-customers: true
