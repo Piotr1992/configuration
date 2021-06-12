@@ -1,6 +1,5 @@
 server:
-  port-1: 7777
-  port-2: 7778
+  port: 7777
 accounts:
   datasource:
     url: jdbc:postgresql://localhost:3306/accounts
@@ -8,14 +7,3 @@ accounts:
     password: PLSzW-2020
     ddl-mode: update
   allow-get-accounts: true
-customer:
-  datasource:
-    url: jdbc:postgresql://localhost:3306/customer
-    username: root
-    password: PLSzW-2020
-    ddl-mode: update
-  allow-get-customer: true
-eureka:
-  client: ${eureka-client}
-application:
-  allow-get-customer: ${customer.allow-get-customer}
