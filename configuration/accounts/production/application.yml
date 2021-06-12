@@ -15,3 +15,7 @@ customer:
     password: PLSzW-2020
     ddl-mode: update
   allow-get-customer: true
+eureka:
+  client: ${eureka-client}
+application:
+  allow-get-customer: ${customer.allow-get-customer}
